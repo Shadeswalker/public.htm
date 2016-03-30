@@ -1,0 +1,165 @@
+body {
+	background-color: #e8e8e8;
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #181818;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Old Standard TT', 'Bell MT', cursive;
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p {
+	text-indent: 40px;
+	text-align: justify;
+}
+
+td {
+	text-align: justify;
+}
+
+th {
+	font-size:1.4em;
+	text-align: left;
+}
+
+
+/*HEADER AND BANNER*/
+
+#topbanner {
+	height: 90px;
+	width: 940px;
+	background: url('redline.png') repeat-x bottom;
+}
+
+#navmenu {
+	float: right;
+	font-size: 1.3em;
+	font-family: 'Bell MT';
+	margin-right: 10px;
+	margin-top: 50px;
+}
+
+#navmenu td {
+	padding-right: 10px;
+}
+
+
+#navmenu a {
+    padding-bottom: 3px;
+    text-decoration: none;
+	color: #181818;
+}
+
+#navmenu a:hover {
+    color: #760000;
+    border-bottom: 3px solid #760000;
+}
+
+#image_banner {
+    margin-top: 15px;
+    height: 278px;
+	width: 936px;
+    border-radius: 5px;
+    background: url('botbanner.jpg') no-repeat;
+    position: relative;
+    box-shadow: 4px 4px 2px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banner_description {
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24);
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 1.1em;
+}
+
+#red_button {
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('redbutton.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+#red_button:hover {
+	border-bottom: 2px #760000 solid;
+	border-left: 2px #760000 solid;
+}
+
+/*HEADER END*/
+
+
+#organisations {
+	margin-top: 0px;
+	border-spacing: 10px 10px;
+}
+
+.org_img {
+	width: 300px;
+	height: 300px;
+}
+
+#accordion {
+	font-size: 0.8em;
+	height: 600px;
+}
+
+.attraction_image {
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.attr_image {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*FOOTER*/
+#footer {
+	background-color: rgb(24,24,24);
+    background-color: rgba(24,24,24,0.7);
+    color: white;
+	border-radius: 5px;
+	width: 99.5%%;
+	height: 120px;
+}
+
+#innerfooter{
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	text-align: center;
+}
+
+#logo {
+	height: 100px;
+	width:80px;
+	border-radius: 3px;
+	margin-top: 10px;
+}
